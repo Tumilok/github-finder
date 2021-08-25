@@ -4,12 +4,11 @@ import Navbar from './components/layout/Navbar';
 import Users from './components/users/Users';
 
 class App extends Component {
-
   render() {
     return (
-      <div className="App">
+      <div className='App'>
         <Navbar />
-        <div className="container">
+        <div className='container'>
           <Users />
         </div>
       </div>
